@@ -7,7 +7,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!DOCTYPE html>
 <html>
 <head>
-<title>MarketPlace | Inicio Sesión</title>
+<title>MarketPlace | Validar Solitudes</title>
 <!-- for-mobile-apps -->
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -17,7 +17,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		function hideURLbar(){ window.scrollTo(0,1); } </script>
 <!-- //for-mobile-apps -->
 <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
-<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/styleInicioCliente.css" rel="stylesheet" type="text/css" media="all" />
 <!-- js -->
 <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
 <!-- //js -->
@@ -35,12 +35,22 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	});
 </script>
 <!-- start-smoth-scrolling -->
+<meta charset="UTF-8">
+<title>estrellas</title>
+<style>
+
+table, th, td {
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+</style>
 
 </head>
 	
 <body>
 <!-- banner -->
-	<div class="banner1">
+	<div class="bannerCalificar">
 		<div class="header">
 			<div class="container">
 				<nav class="navbar navbar-default">
@@ -70,36 +80,70 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						</nav>
 					</div>
 					<!-- /.navbar-collapse -->
-
-
-
-
 				</nav>
 			</div>		
 
 		</div>
 		<div class="container">
 			</br>
-
-			<font color="White" face="Comic Sans MS,arial">
-  				<h1 align="center"><i>Inicio Sesión</i></h1>
-  				</br>
-  				<div class="input-group" align="center">
-                 	<input type="text" class="form-control" name="usuario" id="txtUsuario" placeholder="Usuario" style="margin-left:30%; width:500px; margin-bottom:30px;"/>
-                 	<input type="password" class="form-control" name="password" id="txtPassword" placeholder="Contraseña" style="margin-left:30%; width:500px; margin-bottom:30px;"/>
-				</div>
-
-
- 				<div class="form-group">
-                    <div class="col-lg-offset-2 col-sm-4">
-                        <input type="submit" value="Iniciar Sesión" id="btnIniciarSesion" class="btn btn-success" style="margin-left:80%; width:200px; margin-bottom:30px;"/>
-                    </div>
-                </div>
+			<font color="Black" face="Comic Sans MS,arial">
+  				<h1 align="center"><i>Validar Solicitudes</i></h1>
+					<table style="width:100%">
+  						<tr>
+    						<th>Nombre</th>
+    						<th>Apellido</th>
+    						<th>Correo</th> 
+    						<th>Telefono</th> 
+    						<th>Aceptar</th>
+    						<th>Rechazar</th>
+  						</tr>
+  						<tr>
+    						<td>Andres</td>
+    						<td>Smith</td>
+    						<td>andresSmith@jjj.com</td>
+    						<td>213890</td>
+    						<td><img src="images/chulo.png" alt="Aceptar" style="margin-left:10%; margin-top:2%; height: 20px; width:20px; margin-bottom:10px;">
+    						</td>
+    						<td><img src="images/error.png" alt="Eliminar" style="margin-left:15%; margin-top:2%; height: 25px; width:20px; margin-bottom:10px;">
+    						</td>
+  						</tr>
+  						<tr>
+    						<td>Andrea</td>
+    						<td>Suarez</td>
+    						<td>andreaSuarez@hhhh.com</td>
+    						<td>832901</td>
+    						<td><img src="images/chulo.png" alt="Aceptar" style="margin-left:10%; margin-top:2%; height: 20px; width:20px; margin-bottom:10px;">
+    						</td>
+    						<td><img src="images/error.png" alt="Eliminar" style="margin-left:15%; margin-top:2%; height: 25px; width:20px; margin-bottom:10px;">
+    						</td>
+  						</tr>
+  						<tr>
+    						<td>Jorge</td>
+    						<td>Bermudez</td>
+    						<td>Jorge_Bermudez@hl.com</td>
+    						<td>23321</td>
+    						<td><img src="images/chulo.png" alt="Aceptar" style="margin-left:10%; margin-top:2%; height: 20px; width:20px; margin-bottom:10px;">
+    						</td>
+    						<td><img src="images/error.png" alt="Eliminar" style="margin-left:15%; margin-top:2%; height: 25px; width:20px; margin-bottom:10px;">
+    						</td>
+  						</tr>
+  						<tr>
+    						<td>Ximena</td>
+    						<td>Alvarez</td>
+    						<td>Ximena_Alvarez@hl.com</td>
+    						<td>8930</td>
+    						<td><img src="images/chulo.png" alt="Aceptar" style="margin-left:10%; margin-top:2%; height: 20px; width:20px; margin-bottom:10px;">
+    						</td>
+    						<td><img src="images/error.png" alt="Eliminar" style="margin-left:15%; margin-top:2%; height: 25px; width:20px; margin-bottom:10px;">
+    						</td>
+  						</tr>
+					</table>
+	  			</br>
+	  			
 
 			</font>
+		</div>
 
-			</div>
-			
 		</div>
 	</div>
 <!-- //banner -->

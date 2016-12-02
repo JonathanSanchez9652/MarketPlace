@@ -7,7 +7,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!DOCTYPE html>
 <html>
 <head>
-<title>MarketPlace | Inicio Sesión</title>
+<title>Market Place | Publicar Oferta</title>
 <!-- for-mobile-apps -->
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -17,7 +17,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		function hideURLbar(){ window.scrollTo(0,1); } </script>
 <!-- //for-mobile-apps -->
 <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
-<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/styleInicioCliente.css" rel="stylesheet" type="text/css" media="all" />
 <!-- js -->
 <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
 <!-- //js -->
@@ -40,7 +40,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	
 <body>
 <!-- banner -->
-	<div class="banner1">
+	<div class="bannerPublicar">
 		<div class="header">
 			<div class="container">
 				<nav class="navbar navbar-default">
@@ -64,46 +64,68 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 								<li><a href="index.html" data-hover="Home">Home</a></li>
 								<li><a href="services.html" data-hover="Services">Services</a></li>
 								<li><a href="gallery.html" data-hover="Gallery">Gallery</a></li>
-								<li class="active"><a href="short-codes.html" data-hover="Short Codes">Short Codes</a></li>
-								<li><a href="mail.html" data-hover="Mail Us">Mail Us</a></li>
+								<li><a href="short-codes.html" data-hover="Short Codes">Short Codes</a></li>
+								<li class="active"><a href="mail.html" data-hover="Mail Us">Mail Us</a></li>
 							</ul>
 						</nav>
 					</div>
 					<!-- /.navbar-collapse -->
-
-
-
-
 				</nav>
 			</div>		
-
 		</div>
-		<div class="container">
-			</br>
-
-			<font color="White" face="Comic Sans MS,arial">
-  				<h1 align="center"><i>Inicio Sesión</i></h1>
-  				</br>
-  				<div class="input-group" align="center">
-                 	<input type="text" class="form-control" name="usuario" id="txtUsuario" placeholder="Usuario" style="margin-left:30%; width:500px; margin-bottom:30px;"/>
-                 	<input type="password" class="form-control" name="password" id="txtPassword" placeholder="Contraseña" style="margin-left:30%; width:500px; margin-bottom:30px;"/>
-				</div>
-
-
- 				<div class="form-group">
-                    <div class="col-lg-offset-2 col-sm-4">
-                        <input type="submit" value="Iniciar Sesión" id="btnIniciarSesion" class="btn btn-success" style="margin-left:80%; width:200px; margin-bottom:30px;"/>
-                    </div>
-                </div>
-
-			</font>
-
-			</div>
-			
-		</div>
+		
 	</div>
 <!-- //banner -->
 
+<!-- mail-us -->
+	<div class="contact">
+		<div class="container">
+			<h3><span></span>Publica tu oferta</h3>
+			<div class="contact-grid">
+				<div class="col-md-5 contact-left">
+					<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3056.9443837127305!2d-75.7983021!3d39.9873482!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0000000000000000%3A0x69c9c879a1263188!2sLutheran+Church+of+the+Good+Shepherd!5e0!3m2!1sen!2sin!4v1426659332982" frameborder="0" style="border:0"></iframe>
+				</div>
+				<div class="col-md-7 contact-right">
+					<form action="#" method="post">
+						<input type="text" name="Name" placeholder="Nombre" required=" ">
+						<input type="text" name="Cost" placeholder="Precio" required=" ">
+						<input type="text" name="FechaInicial" placeholder="Fecha Inicial" required=" ">
+						<input type="text" name="FechaFinal" placeholder="Fecha Final" required=" ">
+						<div class="clearfix"> </div>
+						<textarea name="Message" placeholder="Escriba su descripción aquí..." required=" "></textarea>
+						<input type="submit" value="Subir imagen">
+						<input type="submit" value="Publicar">
+					</form>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+			<div class="contact-bottom-grids">
+
+				<p>Publica tu oferta para que tus clientes la conozcan y puedan solicitarte el servicio.</p>
+
+				<div class="col-md-4 contact-bottom-grid">
+					<div class="dot">
+						<span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span>
+					</div>
+					<h4>JI.Paulnadwam 2nd D.No:23-50-903.<span>United States</span></h4>
+				</div>
+				<div class="col-md-4 contact-bottom-grid">
+					<div class="dot">
+						<span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
+					</div>
+					<a href="mailto:marketPlace@marketPlace.com">marketPlace@marketPlace.com</a>
+				</div>
+				<div class="col-md-4 contact-bottom-grid">
+					<div class="dot">
+						<span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>
+					</div>
+					<h4>+020 456 9696</h4>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+<!-- //mail-us -->
 <!-- footer -->
 	<div class="footer">
 		<div class="container">
